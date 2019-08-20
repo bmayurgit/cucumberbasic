@@ -20,7 +20,7 @@ public class Hook extends BaseUtil{
     @Before
     public void InitializeTest() {
 
-        System.out.println("Opening the browser : MOCK");
+        System.out.println("Opening the browser : Firefox");
 
         //Passing a dummy WebDriver instance step info
         base.StepInfo = "FirefoxDriver";
@@ -33,7 +33,7 @@ public class Hook extends BaseUtil{
             //Take screenshot logic goes here
             System.out.println(scenario.getName());
         }
-        System.out.println("Closing the browser : MOCK");
+        System.out.println("Closing the browser : Firefox");
     }
 
 }
